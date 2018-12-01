@@ -1,0 +1,37 @@
+{% extends 'musicApp/layout.html' %}
+{% block title %} YOUR GENRES {% endblock %}
+{% block content %}
+{% if request.user.username %}
+<div class="row">
+    <div class="col-md-offset-4 col-md-4 col-xs-12 col-sm-offset-4 col-sm-4">
+        <h4 style="color: white; background-color: black; text-align: center" class="thumbnail">
+            Genres added by {{ request.user.username }}</h4>
+    </div>
+</div>
+{% for i in data %}
+<div class="col-xs-12 col-sm-6 col-md-6">
+    <div class="thumbnail" style="background-color: black; color: white">
+        <h4><a href="artist?id={{ i.id }}">{{ i.artist_genre }}</a></h4>
+        <a href="update_genre?id={{i.id}}" class="btn btn-primary btn-xs">
+            <span class="glyphicon glyphicon-primary"></span> Update
+        </a>&nbsp;
+        <a onclick="return deleteItem()" href="delete_genre?id={{i.id}}" class="btn btn-danger btn-xs">
+            <span class="glyphicon glyphicon-trash"></span> Delete
+        </a>
+    </div>
+</div>
+{% endfor %}
+        <script>
+            function deleteItem(){
+                if(confirm('Are you sure you want to delete this genre ?')){
+                    return true;
+                    }
+                else{
+                    return false;
+                    }
+            }
+        </script>
+{% else %}
+<h3 style="color: white">Please log In !</h3>
+{% endif %}
+{% endblock %}

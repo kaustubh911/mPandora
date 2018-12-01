@@ -1,0 +1,21 @@
+{% extends 'musicApp/layout.html' %}
+{% block title %} GENRE {% endblock %}
+{% block content %}
+<div class="row " >
+    <div class="col-xs-offset-4 col-xs-4 thumbnail" style="background-color: black; color: white; border-radius: 25px">
+        <a href="{% url 'create_genre' %}"><h4 style="text-align: center"><span class="glyphicon glyphicon-plus"></span><br>Add Genre</h4></a>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        {% for i in data %}
+        <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="thumbnail" style="background-color: black; color: white; border-radius: 25px;">
+            <h5><a href="artist?id={{ i.id }}">{{ i.artist_genre }}</a></h5>
+            <h6>Added by {{ i.genre_added_by }}</h6>
+        </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
