@@ -25,9 +25,6 @@ def sign_up(request):
             username = form.cleaned_data['username']
             if User.objects.filter(username__iexact=username).exists():
                 return render(request, 'musicApp/sign_up_error.html')
-            #     raise forms.ValidationError('Username already exists')
-
-            return username
             password = form.cleaned_data['password']
             user = User()
             user.username = username
