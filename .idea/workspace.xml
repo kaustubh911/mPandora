@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2aee7078-6c1f-40b8-a75c-f8f314bb90df" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicApp/templates/musicApp/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/musicApp/templates/musicApp/home.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,13 +47,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Procfile" value="68" />
-          <entry key="html" value="5959" />
+          <entry key="html" value="5967" />
           <entry key="py" value="4995" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="5959" />
+          <entry key="HTML" value="5967" />
           <entry key="PLAIN_TEXT" value="68" />
           <entry key="Python" value="4995" />
         </counts>
@@ -67,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/musicApp/templates/musicApp/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="22" column="86" selection-start-line="22" selection-start-column="86" selection-end-line="22" selection-end-column="86" />
+              <caret line="22" column="101" selection-start-line="22" selection-start-column="101" selection-end-line="22" selection-end-column="101" />
             </state>
           </provider>
         </entry>
@@ -549,7 +548,7 @@
     <entry file="file://$PROJECT_DIR$/musicApp/templates/musicApp/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="22" column="86" selection-start-line="22" selection-start-column="86" selection-end-line="22" selection-end-column="86" />
+          <caret line="22" column="101" selection-start-line="22" selection-start-column="101" selection-end-line="22" selection-end-column="101" />
         </state>
       </provider>
     </entry>
