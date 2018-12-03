@@ -25,9 +25,15 @@ def sign_up(request):
             username = form.cleaned_data['username']
             if User.objects.filter(username__iexact=username).exists():
                 return render(request, 'musicApp/sign_up_error.html')
+            first_name = form.cleaned_data['first_name']
+            last_name = form.cleaned_data['last_name']
+            email = form.cleaned_data['email']
             password = form.cleaned_data['password']
             user = User()
             user.username = username
+            user.first_name = first_name
+            user.last_name = last_name
+            user.email = email
             user.set_password(password)
             user.save()
             message = 'User : ' + username + ' registered successfully !'
