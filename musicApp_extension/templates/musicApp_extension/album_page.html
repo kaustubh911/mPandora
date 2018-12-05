@@ -11,15 +11,18 @@
         {% if data %}
         {% for i in data %}
         <div class="col-xs-12 col-sm-6 col-md-4">
+            <a href="song?id={{ i.id }}">
             <div class="panel panel-default" style="background-color: black; color: white; border-radius: 25px;">
                 <div class="panel-body">
-                    <h4><a href="song?id={{ i.id }}">{{ i.album_title }}</a></h4>
+                    <h5>{{ i.album_title }}</h5>
                     <div class="col-xs-10">
                         <img src="{{ i.album_logo }}" class="img-responsive" style="border-radius: 15px; width: 200px; height: 200px">
+                        <h5>Album released: {{ i.album_released }}</h5>
                         <h5>Added by {{ i.album_added_by }}</h5>
                     </div>
                 </div>
             </div>
+            </a>
         </div>
         {% endfor %}
         {% else %}
