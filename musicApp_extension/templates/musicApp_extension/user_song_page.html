@@ -11,8 +11,8 @@
 {% for i in data %}
 <div class="col-xs-12 col-sm-6 col-md-4">
     <div class="thumbnail" style="background-color: black; color: white">
-        <h4>Album id - {{ i.album }}</h4>
-        <h4>{{ i.song_title }}.{{ i.file_type }}</h4>
+        <h5>Album id - {{ i.album }}</h5>
+        <h6>{{ i.song_title }}.{{ i.file_type }}</h6>
         <iframe width="100%" height="100%" src="https://www.youtube.com/embed/{{ i.song_url }}"
                     frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen>
