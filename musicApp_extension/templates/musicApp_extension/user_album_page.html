@@ -4,16 +4,17 @@
 {% if request.user.username %}
 <div class="row">
     <div class="col-md-offset-4 col-md-4 col-xs-12 col-sm-offset-4 col-sm-4">
-        <h4 style="color: white; background-color: black; text-align: center" class="thumbnail">
+        <h4 style="color: white; background-color: black; text-align: center; border-radius: 15px" class="thumbnail">
             Albums added by {{ request.user.username }}</h4>
     </div>
 </div>
 {% for i in data %}
 <div class="col-xs-12 col-sm-6 col-md-4">
-    <div class="panel panel-default" style="background-color: black; color: white; border-radius: 25px;">
+    <div class="panel panel-default" style="background-color: black; color: white; border-radius: 20px;">
         <div class="panel-body">
+        <a href="song?id={{ i.id }}" style="color: white">
         <h4>Artist id - {{ i.artist }}</h4>
-        <h4><a href="song?id={{ i.id }}">{{ i.album_title }}</a></h4>
+        <h4>{{ i.album_title }}</h4>
         <img src="{{ i.album_logo }}" class="img-responsive" style="border-radius: 15px; width: 200px; height: 200px">
         <h5>Album released - {{ i.album_released }}</h5>
         <a href="update_album?id={{i.id}}" class="btn btn-primary btn-xs">
@@ -21,6 +22,7 @@
         </a>&nbsp;
         <a onclick="return deleteItem()" href="delete_album?id={{i.id}}" class="btn btn-danger btn-xs">
             <span class="glyphicon glyphicon-trash"></span> Delete
+        </a>
         </a>
         </div>
     </div>

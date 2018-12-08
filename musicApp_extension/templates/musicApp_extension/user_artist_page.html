@@ -4,20 +4,22 @@
 {% if request.user.username %}
 <div class="row">
     <div class="col-md-offset-4 col-md-4 col-xs-12 col-sm-offset-4 col-sm-4">
-        <h4 style="color: white; background-color: black; text-align: center" class="thumbnail">
+        <h4 style="color: white; background-color: black; text-align: center; border-radius: 15px" class="thumbnail">
             Artists added by {{ request.user.username }}</h4>
     </div>
 </div>
 {% for i in data %}
 <div class="col-xs-12 col-md-6">
-    <div class="thumbnail" style="background-color: black; color: white">
+    <div class="thumbnail" style="background-color: black; color: white; border-radius: 12px">
+        <a href="album?id={{ i.id }}" style="color: white">
         <h4>Genre id - {{ i.genre }}</h4>
-        <h4><a href="album?id={{ i.id }}">{{ i.artist_name }}</a></h4>
+        <h4>{{ i.artist_name }}</h4>
         <a href="update_artist?id={{i.id}}" class="btn btn-primary btn-xs">
             <span class="glyphicon glyphicon-primary"></span> Update
         </a>&nbsp;
         <a onclick="return deleteItem()" href="delete_artist?id={{i.id}}" class="btn btn-danger btn-xs">
             <span class="glyphicon glyphicon-trash"></span> Delete
+        </a>
         </a>
     </div>
 </div>

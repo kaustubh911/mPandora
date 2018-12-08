@@ -12,8 +12,10 @@
         {% for i in data %}
         <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="thumbnail" style="background-color: black; color: white; border-radius: 25px;">
-            <h4><a href="album?id={{ i.id }}">{{ i.artist_name }}</a></h4>
+            <a href="album?id={{ i.id }}" style="color: white">
+            <h4>{{ i.artist_name }}</h4>
             <h5>Added by {{ i.artist_added_by }}</h5>
+            </a>
         </div>
         </div>
         {% endfor %}

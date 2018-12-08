@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2aee7078-6c1f-40b8-a75c-f8f314bb90df" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/templates/musicApp/genre_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/musicApp/templates/musicApp/genre_page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicApp/templates/musicApp/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/musicApp/templates/musicApp/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/templates/musicApp/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/musicApp/templates/musicApp/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/templates/musicApp/user_genre_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/musicApp/templates/musicApp/user_genre_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp_extension/templates/musicApp_extension/artist_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/musicApp_extension/templates/musicApp_extension/artist_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp_extension/templates/musicApp_extension/song_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/musicApp_extension/templates/musicApp_extension/song_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp_extension/templates/musicApp_extension/user_album_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/musicApp_extension/templates/musicApp_extension/user_album_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp_extension/templates/musicApp_extension/user_artist_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/musicApp_extension/templates/musicApp_extension/user_artist_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp_extension/templates/musicApp_extension/user_song_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/musicApp_extension/templates/musicApp_extension/user_song_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/background_1.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +25,7 @@
     <session id="-1024433976">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="53" />
+          <entry key="project.closed" value="54" />
           <entry key="project.open.time.0" value="41" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="1" />
@@ -27,14 +38,14 @@
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.55" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="57" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Procfile" value="1" />
-          <entry key="html" value="172" />
+          <entry key="html" value="187" />
           <entry key="keep" value="1" />
           <entry key="py" value="132" />
           <entry key="txt" value="2" />
@@ -42,7 +53,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="172" />
+          <entry key="HTML" value="187" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="Python" value="132" />
         </counts>
@@ -50,13 +61,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Procfile" value="68" />
-          <entry key="html" value="6558" />
+          <entry key="html" value="7078" />
           <entry key="py" value="5174" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="6558" />
+          <entry key="HTML" value="7078" />
           <entry key="PLAIN_TEXT" value="68" />
           <entry key="Python" value="5174" />
         </counts>
@@ -64,29 +75,57 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/musicApp/templates/musicApp/layout.html">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/musicApp/templates/musicApp/user_genre_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-42">
-              <caret line="10" column="153" selection-start-line="10" selection-start-column="153" selection-end-line="10" selection-end-column="153" />
+            <state relative-caret-position="205">
+              <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/musicApp/templates/musicApp/home.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/musicApp_extension/templates/musicApp_extension/user_artist_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+            <state relative-caret-position="188">
+              <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/musicApp_extension/templates/musicApp_extension/user_album_page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+              <folding>
+                <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/musicApp_extension/templates/musicApp_extension/user_song_page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="92" selection-start-line="12" selection-start-column="92" selection-end-line="12" selection-end-column="92" />
+              <folding>
+                <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -132,8 +171,6 @@
         <option value="$PROJECT_DIR$/crud_extension/urls.py" />
         <option value="$PROJECT_DIR$/crud/templates/crud/create_genre_page.html" />
         <option value="$PROJECT_DIR$/musicApp/templates/musicApp/sign_up_error.html" />
-        <option value="$PROJECT_DIR$/musicApp/templates/musicApp/user_genre_page.html" />
-        <option value="$PROJECT_DIR$/musicApp_extension/templates/musicApp_extension/user_artist_page.html" />
         <option value="$PROJECT_DIR$/crud/views.py" />
         <option value="$PROJECT_DIR$/crud/forms.py" />
         <option value="$PROJECT_DIR$/Procfile" />
@@ -141,18 +178,20 @@
         <option value="$PROJECT_DIR$/mPandora/urls.py" />
         <option value="$PROJECT_DIR$/musicApp/urls.py" />
         <option value="$PROJECT_DIR$/mPandora/settings.py" />
-        <option value="$PROJECT_DIR$/musicApp/templates/musicApp/genre_page.html" />
         <option value="$PROJECT_DIR$/musicApp/views.py" />
         <option value="$PROJECT_DIR$/musicApp/forms.py" />
         <option value="$PROJECT_DIR$/musicApp/templates/musicApp/signup_page.html" />
         <option value="$PROJECT_DIR$/musicApp/templates/musicApp/login_page.html" />
-        <option value="$PROJECT_DIR$/musicApp_extension/templates/musicApp_extension/artist_page.html" />
         <option value="$PROJECT_DIR$/musicApp_extension/templates/musicApp_extension/album_page.html" />
-        <option value="$PROJECT_DIR$/musicApp_extension/templates/musicApp_extension/song_page.html" />
-        <option value="$PROJECT_DIR$/musicApp_extension/templates/musicApp_extension/user_album_page.html" />
-        <option value="$PROJECT_DIR$/musicApp_extension/templates/musicApp_extension/user_song_page.html" />
         <option value="$PROJECT_DIR$/musicApp/templates/musicApp/layout.html" />
         <option value="$PROJECT_DIR$/musicApp/templates/musicApp/home.html" />
+        <option value="$PROJECT_DIR$/musicApp_extension/templates/musicApp_extension/user_song_page.html" />
+        <option value="$PROJECT_DIR$/musicApp/templates/musicApp/genre_page.html" />
+        <option value="$PROJECT_DIR$/musicApp_extension/templates/musicApp_extension/artist_page.html" />
+        <option value="$PROJECT_DIR$/musicApp_extension/templates/musicApp_extension/song_page.html" />
+        <option value="$PROJECT_DIR$/musicApp_extension/templates/musicApp_extension/user_artist_page.html" />
+        <option value="$PROJECT_DIR$/musicApp_extension/templates/musicApp_extension/user_album_page.html" />
+        <option value="$PROJECT_DIR$/musicApp/templates/musicApp/user_genre_page.html" />
       </list>
     </option>
   </component>
@@ -168,6 +207,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -178,37 +218,30 @@
             <path>
               <item name="mPandora" type="b2602c69:ProjectViewProjectNode" />
               <item name="mPandora" type="462c0819:PsiDirectoryNode" />
-              <item name="musicApp" type="462c0819:PsiDirectoryNode" />
+              <item name="musicApp_extension" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mPandora" type="b2602c69:ProjectViewProjectNode" />
               <item name="mPandora" type="462c0819:PsiDirectoryNode" />
-              <item name="musicApp" type="462c0819:PsiDirectoryNode" />
+              <item name="musicApp_extension" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mPandora" type="b2602c69:ProjectViewProjectNode" />
               <item name="mPandora" type="462c0819:PsiDirectoryNode" />
-              <item name="musicApp" type="462c0819:PsiDirectoryNode" />
+              <item name="musicApp_extension" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="musicApp" type="462c0819:PsiDirectoryNode" />
+              <item name="musicApp_extension" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mPandora" type="b2602c69:ProjectViewProjectNode" />
               <item name="mPandora" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mPandora" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mPandora" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -340,13 +373,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/musicApp/templates/musicApp/update_genre_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="25" lean-forward="true" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/musicApp/templates/musicApp/update_artist_page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -379,20 +405,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="95" selection-start-line="5" selection-start-column="95" selection-end-line="5" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/musicApp/templates/musicApp/user_genre_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/musicApp_extension/templates/musicApp_extension/user_artist_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -510,13 +522,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/musicApp/templates/musicApp/genre_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/musicApp/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -525,13 +530,6 @@
             <element signature="e#0#45#0" expanded="true" />
             <marker date="1543835900547" expanded="true" signature="657:1601" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/musicApp_extension/templates/musicApp_extension/artist_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -546,60 +544,114 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="133" selection-start-line="18" selection-start-column="77" selection-end-line="18" selection-end-column="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicApp/templates/musicApp/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="107" selection-start-line="16" selection-start-column="107" selection-end-line="16" selection-end-column="107" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicApp/templates/musicApp/update_genre_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="59" lean-forward="true" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicApp/templates/musicApp/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="14" column="86" selection-start-line="14" selection-start-column="86" selection-end-line="14" selection-end-column="86" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicApp/templates/musicApp/genre_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicApp_extension/templates/musicApp_extension/artist_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicApp_extension/templates/musicApp_extension/song_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="61" lean-forward="true" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicApp_extension/templates/musicApp_extension/user_artist_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+          <folding>
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/musicApp_extension/templates/musicApp_extension/user_album_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="117" selection-start-line="16" selection-start-column="117" selection-end-line="16" selection-end-column="117" />
+        <state relative-caret-position="204">
+          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
           <folding>
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/musicApp_extension/templates/musicApp_extension/user_song_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/musicApp_extension/templates/musicApp_extension/song_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        <state relative-caret-position="204">
+          <caret line="12" column="92" selection-start-line="12" selection-start-column="92" selection-end-line="12" selection-end-column="92" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/musicApp/templates/musicApp/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-42">
-          <caret line="10" column="153" selection-start-line="10" selection-start-column="153" selection-end-line="10" selection-end-column="153" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/musicApp/templates/musicApp/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicApp/templates/musicApp/user_genre_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
+          <folding>
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
